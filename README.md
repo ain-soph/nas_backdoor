@@ -1,5 +1,5 @@
 
-> **NOTE:** This is an implementation for anonymous ICLR submission [The Dark Side of AutoML: Towards Architectural Backdoor Search](https://openreview.net/forum?id=bsZULlDGXe) upon requests from reviewers. The final release may be marginally different.
+> **NOTE:** This is a prototype implementation of the anonymous ICLR submission [The Dark Side of AutoML: Towards Architectural Backdoor Search](https://openreview.net/forum?id=bsZULlDGXe). The final release may be marginally different.
 
 ## Installation
 
@@ -15,9 +15,15 @@
 
 ## Configuration
 
-1. Download NATSBench (NATS-tss-v1_0-3ffb9-full) following their official guidance.
+1. Download NATSBench (NATS-tss-v1_0-3ffb9-full) following the official guidance.
 2. Set `nats_path` in `./configs/trojanvision/model.yml`
 
 ## Experiment
-The command to run each script is at the top of file (commented).
-> `--download` option might be necessary for the first run to download datasets and models.
+
+The command is at the top of each file (currently commented). For example, to run the genetic search for vulnerable architectures, use the following command:
+
+```
+    CUDA_VISIBLE_DEVICES=1 python ./projects/nas_backdoor/search_genetic.py --color --verbose 1 --model nats_bench --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --natural --total_resume --save_suffix 1
+```
+
+> `--download` option may be necessary for the first run to download datasets and models.
