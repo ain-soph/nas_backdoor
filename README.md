@@ -1,5 +1,5 @@
 
-> **NOTE:** This is an implementation for anonymous ICLR submission [The Dark Side of AutoML: Towards Architectural Backdoor Search](https://openreview.net/forum?id=bsZULlDGXe) upon requests from reviewers. It doesn't stand for the final code release.
+> **NOTE:** This is an implementation for anonymous ICLR submission [The Dark Side of AutoML: Towards Architectural Backdoor Search](https://openreview.net/forum?id=bsZULlDGXe) upon requests from reviewers. The final release may be marginally different.
 
 ## Installation
 
