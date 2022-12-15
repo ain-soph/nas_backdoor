@@ -4,7 +4,7 @@
 ## Installation
 
 1. Install `python==3.10 pytorch==1.12.1 torchvision==0.13.1`
-2. Install trojanzoo
+2. Install [trojanzoo](https://github.com/ain-soph/trojanzoo)
     ```
     git clone https://github.com/ain-soph/trojanzoo.git
     cd trojanzoo
