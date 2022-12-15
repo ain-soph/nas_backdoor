@@ -77,7 +77,7 @@ if __name__ == '__main__':
     trojanvision.attacks.add_argument(parser)
     parser.add_argument('--save_suffix', default='0')
     parser.add_argument('--total_resume', action='store_true')
-    parser.add_argument('--total_epoch', type=int, default=5000)
+    parser.add_argument('--total_epoch', type=int, default=4000)
     parser.add_argument('--sample_freq', type=int, default=10)
     kwargs = parser.parse_args().__dict__
 
