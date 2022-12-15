@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# ASR, ACC and scores of arches perturbed from '|{0}~0|+|{1}~0|{2}~1|+|skip_connect~0|{3}~1|{4}~2|'
+
 r"""
 CUDA_VISIBLE_DEVICES=0 python ./trajectory_conv.py --verbose 1 --model nats_bench --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --natural
 """  # noqa: E501

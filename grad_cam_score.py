@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# generate the IoU scores of heatmaps.
+
 r"""
 CUDA_VISIBLE_DEVICES=0 python ./grad_cam_score.py --verbose 1 --model resnet18_comp --pretrained --attack input_aware_dynamic --train_mask_epochs 10 --dataset cifar10 --natural
 """  # noqa: E501

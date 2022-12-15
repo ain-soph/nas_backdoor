@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# calculate NTK score for each model architecture in NATSBench.
+
 r"""
 CUDA_VISIBLE_DEVICES=2 python ./distribution_ntk.py --color --verbose 1 --model nats_bench --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --natural
 """  # noqa: E501

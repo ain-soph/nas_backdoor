@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# generate the heatmaps on ResNet.
+
 r"""
 CUDA_VISIBLE_DEVICES=0 python ./grad_cam_resnet.py --verbose 1 --model resnet18_comp --pretrained --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --dataset cifar10 --natural
 """  # noqa: E501

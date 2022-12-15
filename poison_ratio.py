@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# test ASR and ACC of EVAS on different poisoning ratio.
+
 r"""
 CUDA_VISIBLE_DEVICES=0 python ./poison_ratio.py --verbose 1 --model nats_bench --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --official --model_index 168 --model_seed 888 --dataset cifar10 --natural --poison_percent 1e-4
 """  # noqa: E501

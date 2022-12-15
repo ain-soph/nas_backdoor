@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# genetic search to find vulnerable architectures.
+
 r"""
 CUDA_VISIBLE_DEVICES=1 python ./search_genetic.py --color --verbose 1 --model nats_bench --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --natural --total_resume --save_suffix 1
 """  # noqa: E501

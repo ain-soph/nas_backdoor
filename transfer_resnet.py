@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# retraining from scratch for ResNet
+
 r"""
 CUDA_VISIBLE_DEVICES=1 python ./transfer_resnet.py --verbose 1 --model resnet18_comp --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --natural --batch_size 32
 """  # noqa: E501

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# calculate ACC and ASR for each pretrained model in NATSBench.
+
 r"""
 CUDA_VISIBLE_DEVICES=2 python ./distribution_natsbench.py --color --verbose 1 --model nats_bench --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --natural
 """  # noqa: E501
