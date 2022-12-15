@@ -20,7 +20,7 @@
 
 ## Experiment
 
-The command is at the top of each file (currently commented). For example, to run the genetic search for vulnerable architectures, use the following command:
+The command to run the code is listed at the top of each file. For example, to run the genetic search for vulnerable architectures, use the following command:
 
 ```
     CUDA_VISIBLE_DEVICES=1 python ./projects/nas_backdoor/search_genetic.py --color --verbose 1 --model nats_bench --attack input_aware_dynamic --validate_interval 1 --train_mask_epochs 10 --epochs 10 --lr 1e-2 --natural --total_resume --save_suffix 1
