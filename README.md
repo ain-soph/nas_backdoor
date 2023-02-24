@@ -1,6 +1,3 @@
-
-> **NOTE:** This is a prototype implementation of the anonymous ICLR submission [The Dark Side of AutoML: Towards Architectural Backdoor Search](https://openreview.net/forum?id=bsZULlDGXe). The final release may be marginally different.
-
 ## Installation
 
 1. Install `python==3.10 pytorch==1.12.1 torchvision==0.13.1`
